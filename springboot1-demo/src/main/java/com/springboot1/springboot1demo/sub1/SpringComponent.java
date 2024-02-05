@@ -1,0 +1,10 @@
+package com.springboot1.springboot1demo.sub1;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class SpringComponent {
+	public String getMsg() {
+		return "hello world";
+	}
+}
